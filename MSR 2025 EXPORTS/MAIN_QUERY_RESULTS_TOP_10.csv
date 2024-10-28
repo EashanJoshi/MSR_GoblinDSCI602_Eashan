@@ -1,0 +1,816 @@
+﻿LibraryID,LibraryLabel,PreviousVersion,NewestVersion,AddedDeps,RemovedDeps,AddedDepsCount,RemovedDepsCount,Change,NetChange
+junit:junit,1,3.7,3.8,[],[],0,0,No Change,0
+junit:junit,1,4.9,3.8.1,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+junit:junit,1,3.8.1,3.8.2,[],[],0,0,No Change,0
+junit:junit,1,3.8,4.0,[],[],0,0,No Change,0
+junit:junit,1,4.0,4.1,[],[],0,0,No Change,0
+junit:junit,1,3.8.2,4.10,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+junit:junit,1,4.10,4.11,[],[],0,0,No Change,0
+junit:junit,1,4.13-rc-1,4.11-beta-1,[],[org.hamcrest:hamcrest-library],0,1,Changed,-1
+junit:junit,1,4.11,4.12,[],[],0,0,No Change,0
+junit:junit,1,4.13.2,4.12-beta-1,[],[org.hamcrest:hamcrest-library],0,1,Changed,-1
+junit:junit,1,4.12-beta-1,4.12-beta-2,[],[],0,0,No Change,0
+junit:junit,1,4.12-beta-2,4.12-beta-3,[],[],0,0,No Change,0
+junit:junit,1,4.12,4.13,[org.hamcrest:hamcrest-library],[],1,0,Changed,1
+junit:junit,1,4.13-beta-2,4.13-beta-1,[],[],0,0,No Change,0
+junit:junit,1,4.13-beta-3,4.13-beta-2,[],[],0,0,No Change,0
+junit:junit,1,4.11-beta-1,4.13-beta-3,[org.hamcrest:hamcrest-library],[],1,0,Changed,1
+junit:junit,1,4.13-rc-2,4.13-rc-1,[],[],0,0,No Change,0
+junit:junit,1,4.12-beta-3,4.13-rc-2,[org.hamcrest:hamcrest-library],[],1,0,Changed,1
+junit:junit,1,4.8.2,4.13.1,"[org.hamcrest:hamcrest-library, org.hamcrest:hamcrest-core]",[],2,0,Changed,2
+junit:junit,1,4.13.1,4.13.2,[],[],0,0,No Change,0
+junit:junit,1,4.1,4.2,[],[],0,0,No Change,0
+junit:junit,1,4.2,4.3,[],[],0,0,No Change,0
+junit:junit,1,4.13,4.3.1,[],"[org.hamcrest:hamcrest-library, org.hamcrest:hamcrest-core]",0,2,Changed,-2
+junit:junit,1,4.3,4.4,[],[],0,0,No Change,0
+junit:junit,1,4.4,4.5,[],[],0,0,No Change,0
+junit:junit,1,4.5,4.6,[],[],0,0,No Change,0
+junit:junit,1,4.6,4.7,[],[],0,0,No Change,0
+junit:junit,1,4.7,4.8,[],[],0,0,No Change,0
+junit:junit,1,4.3.1,4.8.1,[],[],0,0,No Change,0
+junit:junit,1,4.8.1,4.8.2,[],[],0,0,No Change,0
+junit:junit,1,4.8,4.9,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.hamcrest:hamcrest-all,2,1.0,1.1,"[org.easymock:easymock, junit:junit, jmock:jmock]",[],3,0,Changed,3
+org.hamcrest:hamcrest-all,2,1.1,1.3,[],"[org.easymock:easymock, junit:junit, jmock:jmock]",0,3,Changed,-3
+org.apache.logging.log4j:log4j-core,3,2.0-rc1,2.0-alpha1,"[oro:oro, javax.servlet:servlet-api, org.codehaus.jackson:jackson-mapper-asl, org.codehaus.jackson:jackson-core-asl]","[org.eclipse.osgi:org.eclipse.osgi, org.osgi:core, org.apache.felix:org.apache.felix.framework, javax.jmdns:jmdns, org.mongodb:mongo-java-driver, javax.servlet:javax.servlet-api, com.h2database:h2, com.fasterxml.jackson.core:jackson-databind, org.easymock:easymock, org.springframework:spring-test, org.lightcouch:lightcouch, org.eclipse.persistence:javax.persistence, com.sun.mail:javax.mail, org.eclipse.persistence:org.eclipse.persistence.jpa, org.hsqldb:hsqldb, org.fusesource.jansi:jansi, com.lmax:disruptor, com.fasterxml.jackson.core:jackson-core]",4,18,Changed,-14
+org.apache.logging.log4j:log4j-core,3,2.0-alpha1,2.0-alpha2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.0-beta9,2.0-beta1,"[org.codehaus.jackson:jackson-mapper-asl, oro:oro, org.codehaus.jackson:jackson-core-asl]","[com.lmax:disruptor, org.lightcouch:lightcouch, org.osgi:core, javax.jmdns:jmdns, com.h2database:h2, org.fusesource.jansi:jansi, org.eclipse.persistence:org.eclipse.persistence.jpa, org.apache.felix:org.apache.felix.framework, org.springframework:spring-test, org.eclipse.osgi:org.eclipse.osgi, com.sun.mail:javax.mail, org.mongodb:mongo-java-driver, org.eclipse.persistence:javax.persistence, javax.servlet:javax.servlet-api, org.hsqldb:hsqldb, org.easymock:easymock, com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind]",3,18,Changed,-15
+org.apache.logging.log4j:log4j-core,3,2.0-beta7,2.0-beta2,"[org.codehaus.jackson:jackson-core-asl, org.codehaus.jackson:jackson-mapper-asl]","[org.mongodb:mongo-java-driver, org.hibernate:hibernate-entitymanager, org.hibernate.javax.persistence:hibernate-jpa-2.1-api, org.easymock:easymock, org.lightcouch:lightcouch, javax.mail:mail, com.h2database:h2, com.fasterxml.jackson.core:jackson-core, org.hsqldb:hsqldb, com.fasterxml.jackson.core:jackson-databind, javax.jmdns:jmdns, com.lmax:disruptor, org.osgi:core]",2,13,Changed,-11
+org.apache.logging.log4j:log4j-core,3,3.0.0-alpha1,2.0-beta3,"[org.slf4j:slf4j-ext, ch.qos.logback:logback-core, org.mockejb:mockejb, org.slf4j:slf4j-api, log4j:log4j, org.apache.geronimo.specs:geronimo-jms_1.1_spec, org.codehaus.jackson:jackson-mapper-asl, ch.qos.logback:logback-classic, org.codehaus.jackson:jackson-core-asl, junit:junit, oro:oro, org.osgi:core]","[com.lmax:disruptor, org.osgi:org.osgi.resource, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, com.conversantmedia:disruptor, javax.activation:javax.activation-api, javax.xml.bind:jaxb-api, com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.woodstox:woodstox-core, org.jctools:jctools-core, org.apache.logging.log4j:log4j-plugins, org.apache.commons:commons-compress, com.fasterxml.jackson.dataformat:jackson-dataformat-xml, org.apache.logging.log4j:log4j-plugin-processor, org.osgi:org.osgi.framework]",12,15,Changed,-3
+org.apache.logging.log4j:log4j-core,3,2.0-beta6,2.0-beta4,[],"[javax.jmdns:jmdns, com.lmax:disruptor]",0,2,Changed,-2
+org.apache.logging.log4j:log4j-core,3,2.0-beta1,2.0-beta5,"[com.sun:jconsole, javax.jmdns:jmdns, com.sun:tools, javax.mail:mail, org.fusesource.jansi:jansi, org.osgi:core, com.lmax:disruptor]",[],7,0,Changed,7
+org.apache.logging.log4j:log4j-core,3,2.0-beta5,2.0-beta6,[],"[com.sun:jconsole, com.sun:tools]",0,2,Changed,-2
+org.apache.logging.log4j:log4j-core,3,2.0-beta4,2.0-beta7,"[org.mongodb:mongo-java-driver, org.hibernate:hibernate-entitymanager, org.hibernate.javax.persistence:hibernate-jpa-2.1-api, org.easymock:easymock, org.lightcouch:lightcouch, com.h2database:h2, com.fasterxml.jackson.core:jackson-core, org.hsqldb:hsqldb, com.fasterxml.jackson.core:jackson-databind, javax.jmdns:jmdns, com.lmax:disruptor]","[org.codehaus.jackson:jackson-mapper-asl, org.codehaus.jackson:jackson-core-asl]",11,2,Changed,9
+org.apache.logging.log4j:log4j-core,3,2.0-beta2,2.0-beta8,"[org.lightcouch:lightcouch, com.fasterxml.jackson.core:jackson-core, org.mongodb:mongo-java-driver, org.eclipse.persistence:org.eclipse.persistence.jpa, javax.mail:mail, org.eclipse.persistence:javax.persistence, javax.servlet:javax.servlet-api, org.hsqldb:hsqldb, com.h2database:h2, javax.jmdns:jmdns, org.easymock:easymock, com.lmax:disruptor, com.fasterxml.jackson.core:jackson-databind, org.osgi:core]","[oro:oro, org.codehaus.jackson:jackson-core-asl, org.codehaus.jackson:jackson-mapper-asl]",14,3,Changed,11
+org.apache.logging.log4j:log4j-core,3,2.0-beta3,2.0-beta9,"[com.lmax:disruptor, org.lightcouch:lightcouch, javax.jmdns:jmdns, com.h2database:h2, org.eclipse.persistence:org.eclipse.persistence.jpa, org.apache.felix:org.apache.felix.framework, org.springframework:spring-test, org.eclipse.osgi:org.eclipse.osgi, com.sun.mail:javax.mail, org.mongodb:mongo-java-driver, org.eclipse.persistence:javax.persistence, javax.servlet:javax.servlet-api, org.hsqldb:hsqldb, org.easymock:easymock, com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind]","[org.codehaus.jackson:jackson-mapper-asl, org.codehaus.jackson:jackson-core-asl, oro:oro]",16,3,Changed,13
+org.apache.logging.log4j:log4j-core,3,2.0-rc2,2.0-rc1,"[org.osgi:core, org.mongodb:mongo-java-driver, javax.servlet:javax.servlet-api, org.springframework:spring-test, org.lightcouch:lightcouch, org.apache.geronimo.specs:geronimo-jms_1.1_spec]","[org.codehaus.woodstox:woodstox-core-asl, com.fasterxml.jackson.dataformat:jackson-dataformat-xml, commons-codec:commons-codec, org.hamcrest:hamcrest-all, commons-logging:commons-logging, org.osgi:org.osgi.core, org.jboss.spec.javax.jms:jboss-jms-api_1.1_spec, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml]",6,8,Changed,-2
+org.apache.logging.log4j:log4j-core,3,2.0-beta8,2.0-rc2,"[org.codehaus.woodstox:woodstox-core-asl, com.fasterxml.jackson.dataformat:jackson-dataformat-xml, org.apache.felix:org.apache.felix.framework, commons-codec:commons-codec, org.hamcrest:hamcrest-all, org.eclipse.osgi:org.eclipse.osgi, commons-logging:commons-logging, com.sun.mail:javax.mail, org.osgi:org.osgi.core, org.jboss.spec.javax.jms:jboss-jms-api_1.1_spec, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml]","[org.lightcouch:lightcouch, org.apache.geronimo.specs:geronimo-jms_1.1_spec, org.mongodb:mongo-java-driver, javax.mail:mail, javax.servlet:javax.servlet-api, org.osgi:core]",11,6,Changed,5
+org.apache.logging.log4j:log4j-core,3,2.8,2.0.1,"[org.codehaus.woodstox:woodstox-core-asl, org.easymock:easymock, org.mockejb:mockejb, javax.jmdns:jmdns]","[com.beust:jcommander, com.conversantmedia:disruptor, org.jctools:jctools-core, org.apache.kafka:kafka-clients, org.apache.commons:commons-csv, org.jmdns:jmdns, org.springframework:spring-test, org.apache.activemq:activemq-broker, com.fasterxml.woodstox:woodstox-core, org.apache.maven:maven-core, net.javacrumbs.json-unit:json-unit, org.xmlunit:xmlunit-core, org.xmlunit:xmlunit-matchers, org.apache.commons:commons-compress, org.apache.commons:commons-lang3, org.codehaus.plexus:plexus-utils, org.apache-extras.beanshell:bsh, org.codehaus.groovy:groovy-all, com.google.code.java-allocation-instrumenter:java-allocation-instrumenter, org.hdrhistogram:HdrHistogram, org.zeromq:jeromq, org.tukaani:xz, commons-io:commons-io, org.mockito:mockito-core]",4,24,Changed,-20
+org.apache.logging.log4j:log4j-core,3,2.0.1,2.0.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.0,2.1,"[net.javacrumbs.json-unit:json-unit, org.apache.commons:commons-lang3, commons-io:commons-io, org.apache.activemq:activemq-broker]",[],4,0,Changed,4
+org.apache.logging.log4j:log4j-core,3,2.9.1,2.10.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.10.0,2.11.0,[org.apache.logging.log4j:log4j-core-java9],"[org.eclipse.persistence:javax.persistence, com.beust:jcommander, org.eclipse.persistence:org.eclipse.persistence.jpa]",1,3,Changed,-2
+org.apache.logging.log4j:log4j-core,3,2.11.0,2.11.1,"[org.codehaus.groovy:groovy-dateutil, org.codehaus.groovy:groovy-jsr223]",[org.codehaus.groovy:groovy-all],2,1,Changed,1
+org.apache.logging.log4j:log4j-core,3,2.11.1,2.11.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.11.2,2.12.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.12.0,2.12.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.12.1,2.12.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.12.2,2.12.3,[],[org.apache.logging.log4j:log4j-core-java9],0,1,Changed,-1
+org.apache.logging.log4j:log4j-core,3,2.12.3,2.12.4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.12.4,2.13.0,[org.apache.logging.log4j:log4j-core-java9],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-core,3,2.13.0,2.13.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.13.1,2.13.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.13.2,2.13.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.13.3,2.14.0,"[org.junit.vintage:junit-vintage-engine, org.junit.jupiter:junit-jupiter-engine, org.junit.jupiter:junit-jupiter-params, org.mockito:mockito-junit-jupiter]",[junit:junit],4,1,Changed,3
+org.apache.logging.log4j:log4j-core,3,2.14.0,2.14.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.14.1,2.15.0,"[org.zapodot:embedded-ldap-junit, org.hamcrest:hamcrest, org.awaitility:awaitility]",[org.hamcrest:hamcrest-all],3,1,Changed,2
+org.apache.logging.log4j:log4j-core,3,2.15.0,2.16.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.16.0,2.17.0,[],[org.apache.logging.log4j:log4j-core-java9],0,1,Changed,-1
+org.apache.logging.log4j:log4j-core,3,2.17.0,2.17.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.17.1,2.17.2,"[org.junit.platform:junit-platform-commons, org.junit-pioneer:junit-pioneer]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-core,3,2.17.2,2.18.0,"[javax.activation:javax.activation-api, javax.jms:javax.jms-api, javax.mail:javax.mail-api]","[org.jboss.spec.javax.jms:jboss-jms-api_1.1_spec, log4j:log4j, org.hdrhistogram:HdrHistogram]",3,3,Changed,0
+org.apache.logging.log4j:log4j-core,3,2.18.0,2.19.0,[org.assertj:assertj-core],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-core,3,2.1,2.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.19.0,2.20.0,[],"[com.google.code.java-allocation-instrumenter:java-allocation-instrumenter, commons-codec:commons-codec, org.awaitility:awaitility, ch.qos.logback:logback-core, org.codehaus.groovy:groovy-dateutil, org.xmlunit:xmlunit-core, com.github.tomakehurst:wiremock, org.jmdns:jmdns, org.junit.vintage:junit-vintage-engine, org.junit.platform:junit-platform-commons, org.assertj:assertj-core, org.mockito:mockito-core, org.mockito:mockito-junit-jupiter, org.slf4j:slf4j-ext, org.junit.jupiter:junit-jupiter-params, org.apache.activemq:activemq-broker, org.hamcrest:hamcrest, commons-logging:commons-logging, org.springframework:spring-test, org.junit.jupiter:junit-jupiter-engine, org.hsqldb:hsqldb, org.codehaus.plexus:plexus-utils, org.apache.maven:maven-core, org.tukaani:xz, com.h2database:h2, org.xmlunit:xmlunit-matchers, net.javacrumbs.json-unit:json-unit, org.junit-pioneer:junit-pioneer, org.apache-extras.beanshell:bsh, org.apache.felix:org.apache.felix.framework, org.codehaus.groovy:groovy-jsr223, org.apache.commons:commons-lang3, org.eclipse.tycho:org.eclipse.osgi, ch.qos.logback:logback-classic, org.zapodot:embedded-ldap-junit, commons-io:commons-io]",0,36,Changed,-36
+org.apache.logging.log4j:log4j-core,3,2.20.0,2.21.0,"[org.osgi:osgi.annotation, biz.aQute.bnd:biz.aQute.bnd.annotation, org.osgi:org.osgi.annotation.bundle, com.github.spotbugs:spotbugs-annotations]",[],4,0,Changed,4
+org.apache.logging.log4j:log4j-core,3,2.21.0,2.21.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.21.1,2.22.0,[com.google.errorprone:error_prone_annotations],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-core,3,2.22.0,2.22.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.22.1,2.23.0,[],[com.fasterxml.woodstox:woodstox-core],0,1,Changed,-1
+org.apache.logging.log4j:log4j-core,3,2.23.0,2.23.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.2,2.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.0.2,2.3.1,"[org.apache.commons:commons-lang3, net.javacrumbs.json-unit:json-unit, commons-io:commons-io, org.apache.activemq:activemq-broker]",[],4,0,Changed,4
+org.apache.logging.log4j:log4j-core,3,2.3.1,2.3.2,"[org.mockito:mockito-core, org.springframework:spring-test]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-core,3,2.3,2.4,"[org.apache.kafka:kafka-clients, org.apache.commons:commons-csv, org.apache.commons:commons-compress, org.zeromq:jeromq]",[],4,0,Changed,4
+org.apache.logging.log4j:log4j-core,3,2.3.2,2.4.1,"[org.apache.commons:commons-csv, org.zeromq:jeromq, org.apache.kafka:kafka-clients, org.apache.commons:commons-compress]","[org.mockito:mockito-core, org.springframework:spring-test]",4,2,Changed,2
+org.apache.logging.log4j:log4j-core,3,2.4,2.5,"[org.codehaus.groovy:groovy-all, org.apache-extras.beanshell:bsh]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-core,3,2.5,2.6,"[org.hdrhistogram:HdrHistogram, com.fasterxml.woodstox:woodstox-core, com.google.code.java-allocation-instrumenter:java-allocation-instrumenter, org.tukaani:xz]",[org.codehaus.woodstox:woodstox-core-asl],4,1,Changed,3
+org.apache.logging.log4j:log4j-core,3,2.4.1,2.6.1,"[com.google.code.java-allocation-instrumenter:java-allocation-instrumenter, org.hdrhistogram:HdrHistogram, org.codehaus.groovy:groovy-all, org.apache-extras.beanshell:bsh, org.tukaani:xz, com.fasterxml.woodstox:woodstox-core]",[org.codehaus.woodstox:woodstox-core-asl],6,1,Changed,5
+org.apache.logging.log4j:log4j-core,3,2.6.1,2.6.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.6,2.7,"[org.jctools:jctools-core, com.beust:jcommander, org.xmlunit:xmlunit-core, org.xmlunit:xmlunit-matchers, org.apache.maven:maven-core, com.conversantmedia:disruptor, org.codehaus.plexus:plexus-utils]",[],7,0,Changed,7
+org.apache.logging.log4j:log4j-core,3,2.7,2.8,"[org.jmdns:jmdns, org.springframework:spring-test, org.mockito:mockito-core]","[javax.jmdns:jmdns, org.easymock:easymock, org.mockejb:mockejb]",3,3,Changed,0
+org.apache.logging.log4j:log4j-core,3,2.6.2,2.8.1,"[org.jctools:jctools-core, com.conversantmedia:disruptor, com.beust:jcommander, org.mockito:mockito-core, org.jmdns:jmdns, org.codehaus.plexus:plexus-utils, org.xmlunit:xmlunit-matchers, org.apache.maven:maven-core, org.springframework:spring-test, org.eclipse.tycho:org.eclipse.osgi, org.xmlunit:xmlunit-core]","[org.mockejb:mockejb, org.eclipse.osgi:org.eclipse.osgi, org.easymock:easymock, javax.jmdns:jmdns]",11,4,Changed,7
+org.apache.logging.log4j:log4j-core,3,2.8.1,2.8.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,2.8.2,2.9.0,[com.github.tomakehurst:wiremock],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-core,3,2.9.0,2.9.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-core,3,3.0.0-beta1,3.0.0-alpha1,"[org.osgi:org.osgi.resource, javax.activation:javax.activation-api, javax.xml.bind:jaxb-api, com.fasterxml.woodstox:woodstox-core, org.jctools:jctools-core, org.osgi:org.osgi.framework]","[biz.aQute.bnd:biz.aQute.bnd.annotation, com.github.spotbugs:spotbugs-annotations, org.osgi:org.osgi.annotation.bundle, org.osgi:osgi.annotation, com.google.errorprone:error_prone_annotations]",6,5,Changed,1
+org.apache.logging.log4j:log4j-core,3,3.0.0-beta2,3.0.0-beta1,"[com.fasterxml.jackson.dataformat:jackson-dataformat-xml, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, com.fasterxml.jackson.core:jackson-core, com.lmax:disruptor, com.fasterxml.jackson.core:jackson-databind]",[org.jspecify:jspecify],5,1,Changed,4
+org.apache.logging.log4j:log4j-core,3,2.23.1,3.0.0-beta2,"[org.jspecify:jspecify, org.apache.logging.log4j:log4j-plugin-processor, org.apache.logging.log4j:log4j-plugins]","[org.apache.kafka:kafka-clients, com.lmax:disruptor, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, javax.mail:javax.mail-api, com.fasterxml.jackson.core:jackson-databind, org.apache.commons:commons-csv, com.sun.mail:javax.mail, org.slf4j:slf4j-api, org.zeromq:jeromq, org.jctools:jctools-core, com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.dataformat:jackson-dataformat-xml, javax.jms:javax.jms-api, org.osgi:org.osgi.core, javax.activation:javax.activation-api]",3,15,Changed,-12
+org.apache.logging.log4j:log4j-api,4,2.0-alpha2,2.0-alpha1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,3.0.0-alpha1,2.0-alpha2,"[junit:junit, commons-httpclient:commons-httpclient]","[org.osgi:org.osgi.resource, org.osgi:org.osgi.framework]",2,2,Changed,0
+org.apache.logging.log4j:log4j-api,4,2.0-alpha1,2.0-beta1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta4,2.0-beta2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta1,2.0-beta3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta3,2.0-beta4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta9,2.0-beta5,[],"[org.apache.maven:maven-core, org.eclipse.osgi:org.eclipse.osgi, org.apache.felix:org.apache.felix.framework]",0,3,Changed,-3
+org.apache.logging.log4j:log4j-api,4,2.0-beta8,2.0-beta6,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta2,2.0-beta7,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta7,2.0-beta8,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-beta6,2.0-beta9,"[org.apache.maven:maven-core, org.eclipse.osgi:org.eclipse.osgi, org.apache.felix:org.apache.felix.framework]",[],3,0,Changed,3
+org.apache.logging.log4j:log4j-api,4,3.0.0-beta1,2.0-rc1,"[org.apache.commons:commons-lang3, org.apache.maven:maven-core, junit:junit, org.apache.felix:org.apache.felix.framework, org.eclipse.osgi:org.eclipse.osgi, commons-httpclient:commons-httpclient]","[org.osgi:org.osgi.annotation.bundle, com.github.spotbugs:spotbugs-annotations, com.google.errorprone:error_prone_annotations, org.osgi:osgi.annotation, biz.aQute.bnd:biz.aQute.bnd.annotation]",6,5,Changed,1
+org.apache.logging.log4j:log4j-api,4,2.0-rc1,2.0-rc2,[org.osgi:org.osgi.core],[commons-httpclient:commons-httpclient],1,1,Changed,0
+org.apache.logging.log4j:log4j-api,4,2.8,2.0.1,[],"[com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind]",0,2,Changed,-2
+org.apache.logging.log4j:log4j-api,4,2.0.1,2.0.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0,2.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.9.1,2.10.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.10.0,2.11.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.11.0,2.11.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.11.1,2.11.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.11.2,2.12.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.12.0,2.12.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.12.1,2.12.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.12.2,2.12.3,[],[org.apache.logging.log4j:log4j-api-java9],0,1,Changed,-1
+org.apache.logging.log4j:log4j-api,4,2.12.3,2.12.4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.12.4,2.13.0,[org.apache.logging.log4j:log4j-api-java9],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-api,4,2.13.0,2.13.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.13.1,2.13.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.13.2,2.13.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.13.3,2.14.0,"[org.junit.jupiter:junit-jupiter-migrationsupport, org.junit.jupiter:junit-jupiter-engine, org.assertj:assertj-core, org.junit.vintage:junit-vintage-engine, org.junit.jupiter:junit-jupiter-params]",[junit:junit],5,1,Changed,4
+org.apache.logging.log4j:log4j-api,4,2.14.0,2.14.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.14.1,2.15.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.15.0,2.16.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.16.0,2.17.0,[],[org.apache.logging.log4j:log4j-api-java9],0,1,Changed,-1
+org.apache.logging.log4j:log4j-api,4,2.17.0,2.17.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.17.1,2.17.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.17.2,2.18.0,"[org.junit-pioneer:junit-pioneer, uk.org.webcompere:system-stubs-jupiter]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-api,4,2.18.0,2.19.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.1,2.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.19.0,2.20.0,[],"[org.apache.maven:maven-core, org.apache.commons:commons-lang3, org.junit.jupiter:junit-jupiter-engine, com.fasterxml.jackson.core:jackson-core, uk.org.webcompere:system-stubs-jupiter, org.junit.jupiter:junit-jupiter-params, org.junit-pioneer:junit-pioneer, org.eclipse.tycho:org.eclipse.osgi, com.fasterxml.jackson.core:jackson-databind, org.assertj:assertj-core, org.junit.jupiter:junit-jupiter-migrationsupport, org.junit.vintage:junit-vintage-engine, org.apache.felix:org.apache.felix.framework]",0,13,Changed,-13
+org.apache.logging.log4j:log4j-api,4,2.20.0,2.21.0,"[org.osgi:osgi.annotation, biz.aQute.bnd:biz.aQute.bnd.annotation, com.github.spotbugs:spotbugs-annotations, org.osgi:org.osgi.annotation.bundle]",[],4,0,Changed,4
+org.apache.logging.log4j:log4j-api,4,2.21.0,2.21.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.21.1,2.22.0,[com.google.errorprone:error_prone_annotations],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-api,4,2.22.0,2.22.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.22.1,2.23.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.23.0,2.23.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.2,2.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0.2,2.3.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.3.1,2.3.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.3,2.4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.3.2,2.4.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.4,2.5,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.5,2.6,"[com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-api,4,2.4.1,2.6.1,"[com.fasterxml.jackson.core:jackson-core, com.fasterxml.jackson.core:jackson-databind]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-api,4,2.6.1,2.6.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.6,2.7,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.7,2.8,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.6.2,2.8.1,[org.eclipse.tycho:org.eclipse.osgi],[org.eclipse.osgi:org.eclipse.osgi],1,1,Changed,0
+org.apache.logging.log4j:log4j-api,4,2.8.1,2.8.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.8.2,2.9.0,[org.apache.logging.log4j:log4j-api-java9],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-api,4,2.9.0,2.9.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-api,4,2.0-rc2,3.0.0-alpha1,"[org.osgi:org.osgi.resource, org.osgi:org.osgi.framework]","[org.apache.felix:org.apache.felix.framework, org.apache.maven:maven-core, org.apache.commons:commons-lang3, junit:junit, org.eclipse.osgi:org.eclipse.osgi, org.osgi:org.osgi.core]",2,6,Changed,-4
+org.apache.logging.log4j:log4j-api,4,3.0.0-beta2,3.0.0-beta1,[],[org.jspecify:jspecify],0,1,Changed,-1
+org.apache.logging.log4j:log4j-api,4,2.23.1,3.0.0-beta2,[org.jspecify:jspecify],[org.osgi:org.osgi.core],1,1,Changed,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,3.0.0-alpha1,2.0-beta5,[junit:junit],"[org.apache.logging.log4j:log4j-core-test, org.junit.jupiter:junit-jupiter-engine, org.hamcrest:hamcrest, org.apache.commons:commons-csv, org.junit.vintage:junit-vintage-engine, org.apache.logging.log4j:log4j-api-test, org.apache.logging.log4j:log4j-to-slf4j, org.apache.commons:commons-lang3]",1,8,Changed,-7
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-beta5,2.0-beta6,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-beta8,2.0-beta7,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-beta6,2.0-beta8,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.23.1,2.0-beta9,"[org.slf4j:slf4j-ext, junit:junit]","[com.github.spotbugs:spotbugs-annotations, org.apache.logging.log4j:log4j-api-test, org.osgi:org.osgi.annotation.bundle, com.google.errorprone:error_prone_annotations, org.junit.vintage:junit-vintage-engine, org.apache.commons:commons-lang3, org.apache.logging.log4j:log4j-to-slf4j, org.osgi:osgi.annotation, biz.aQute.bnd:biz.aQute.bnd.annotation, org.junit.jupiter:junit-jupiter-engine, org.apache.commons:commons-csv, org.apache.logging.log4j:log4j-core-test, org.osgi:org.osgi.core]",2,13,Changed,-11
+org.apache.logging.log4j:log4j-slf4j-impl,5,3.0.0-beta1,2.0-rc1,[junit:junit],"[org.osgi:org.osgi.annotation.bundle, com.github.spotbugs:spotbugs-annotations, org.junit.jupiter:junit-jupiter-engine, biz.aQute.bnd:biz.aQute.bnd.annotation, org.apache.logging.log4j:log4j-api-test, org.junit.vintage:junit-vintage-engine, org.apache.commons:commons-csv, com.google.errorprone:error_prone_annotations, org.osgi:osgi.annotation, org.apache.commons:commons-lang3, org.hamcrest:hamcrest, org.apache.logging.log4j:log4j-core-test, org.apache.logging.log4j:log4j-to-slf4j, org.osgi:org.osgi.framework]",1,14,Changed,-13
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-rc1,2.0-rc2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.8,2.0.1,[],"[org.apache.commons:commons-csv, org.apache.commons:commons-lang3]",0,2,Changed,-2
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0.1,2.0.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0,2.1,[org.apache.commons:commons-lang3],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.9.1,2.10.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.10.0,2.11.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.11.0,2.11.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.11.1,2.11.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.11.2,2.12.0,[org.apache.logging.log4j:log4j-to-slf4j],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.12.0,2.12.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.12.1,2.12.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.12.2,2.12.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.12.3,2.12.4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.12.4,2.13.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.13.0,2.13.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.13.1,2.13.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.13.2,2.13.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.13.3,2.14.0,"[org.junit.jupiter:junit-jupiter-engine, org.junit.vintage:junit-vintage-engine]",[junit:junit],2,1,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.14.0,2.14.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.14.1,2.15.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.15.0,2.16.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.16.0,2.17.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.17.0,2.17.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.17.1,2.17.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.17.2,2.18.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.18.0,2.19.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.1,2.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.19.0,2.20.0,"[org.apache.logging.log4j:log4j-api-test, org.apache.logging.log4j:log4j-core-test]",[],2,0,Changed,2
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.20.0,2.21.0,"[org.osgi:org.osgi.annotation.bundle, org.osgi:osgi.annotation, com.github.spotbugs:spotbugs-annotations, biz.aQute.bnd:biz.aQute.bnd.annotation, org.osgi:org.osgi.core]",[],5,0,Changed,5
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.21.0,2.21.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.21.1,2.22.0,[com.google.errorprone:error_prone_annotations],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.22.0,2.22.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.22.1,2.23.0,[],[org.slf4j:slf4j-ext],0,1,Changed,-1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.23.0,2.23.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.2,2.3,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0.2,2.3.1,[org.apache.commons:commons-lang3],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.3.1,2.3.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.3,2.4,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.3.2,2.4.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.4,2.5,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.5,2.6,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.4.1,2.6.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.6.1,2.6.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.6,2.7,[org.apache.commons:commons-csv],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.7,2.8,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.6.2,2.8.1,[org.apache.commons:commons-csv],[],1,0,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.8.1,2.8.2,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.8.2,2.9.0,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.9.0,2.9.1,[],[],0,0,No Change,0
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-rc2,3.0.0-alpha1,"[org.apache.logging.log4j:log4j-core-test, org.junit.jupiter:junit-jupiter-engine, org.hamcrest:hamcrest, org.apache.commons:commons-csv, org.junit.vintage:junit-vintage-engine, org.apache.logging.log4j:log4j-api-test, org.apache.logging.log4j:log4j-to-slf4j, org.apache.commons:commons-lang3]",[junit:junit],8,1,Changed,7
+org.apache.logging.log4j:log4j-slf4j-impl,5,3.0.0-beta2,3.0.0-beta1,"[org.slf4j:slf4j-ext, org.hamcrest:hamcrest]",[org.jspecify:jspecify],2,1,Changed,1
+org.apache.logging.log4j:log4j-slf4j-impl,5,2.0-beta9,3.0.0-beta2,"[org.osgi:org.osgi.framework, org.jspecify:jspecify, org.apache.commons:commons-lang3, com.google.errorprone:error_prone_annotations, org.junit.vintage:junit-vintage-engine, biz.aQute.bnd:biz.aQute.bnd.annotation, org.junit.jupiter:junit-jupiter-engine, com.github.spotbugs:spotbugs-annotations, org.osgi:org.osgi.annotation.bundle, org.apache.logging.log4j:log4j-to-slf4j, org.apache.commons:commons-csv, org.osgi:osgi.annotation, org.apache.logging.log4j:log4j-api-test, org.apache.logging.log4j:log4j-core-test]","[org.slf4j:slf4j-ext, junit:junit]",14,2,Changed,12
+org.assertj:assertj-core,6,1.0.0,1.1.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.1.0,1.2.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.2.0,1.3.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.3.0,1.4.0,[cglib:cglib-nodep],[],1,0,Changed,1
+org.assertj:assertj-core,6,1.4.0,1.5.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.5.0,1.6.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.6.0,1.6.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.6.1,1.7.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,1.7.0,1.7.1,[org.mockito:mockito-core],[org.mockito:mockito-all],1,1,Changed,0
+org.assertj:assertj-core,6,1.7.1,2.0.0,[com.github.marschall:memoryfilesystem],[],1,0,Changed,1
+org.assertj:assertj-core,6,2.0.0,2.1.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.1.0,2.2.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.2.0,2.3.0,[com.tngtech.java:junit-dataprovider],[],1,0,Changed,1
+org.assertj:assertj-core,6,2.3.0,2.4.0,[],[cglib:cglib-nodep],0,1,Changed,-1
+org.assertj:assertj-core,6,2.4.0,2.4.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.4.1,2.5.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.5.0,2.6.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.6.0,2.7.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.7.0,2.8.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.8.0,2.9.0,"[com.google.guava:guava, org.hamcrest:hamcrest-core, com.tngtech.junit.dataprovider:junit4-dataprovider, org.opentest4j:opentest4j]",[com.tngtech.java:junit-dataprovider],4,1,Changed,3
+org.assertj:assertj-core,6,2.9.0,2.9.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,2.9.1,3.0.0,"[org.easymock:easymock, org.powermock:powermock-module-junit4, org.ow2.asm:asm, org.powermock:powermock-api-mockito, cglib:cglib]","[com.google.guava:guava, org.opentest4j:opentest4j, org.hamcrest:hamcrest-core, com.tngtech.junit.dataprovider:junit4-dataprovider]",5,4,Changed,1
+org.assertj:assertj-core,6,3.0.0,3.1.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.9.1,3.10.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.10.0,3.11.0,"[org.junit.vintage:junit-vintage-engine, org.junit.jupiter:junit-jupiter-params, org.junit.jupiter:junit-jupiter-engine, org.junit.jupiter:junit-jupiter-api, org.junit.platform:junit-platform-runner]",[com.tngtech.junit.dataprovider:junit4-dataprovider],5,1,Changed,4
+org.assertj:assertj-core,6,3.11.0,3.11.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.11.1,3.12.0,"[org.junit.jupiter:junit-jupiter, org.apache.commons:commons-lang3]","[org.junit.jupiter:junit-jupiter-engine, org.junit.platform:junit-platform-runner, org.junit.jupiter:junit-jupiter-params]",2,3,Changed,-1
+org.assertj:assertj-core,6,3.12.0,3.12.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.12.1,3.12.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.12.2,3.13.0,"[com.google.code.findbugs:jsr305, org.mockito:mockito-junit-jupiter, org.junit.platform:junit-platform-testkit]",[],3,0,Changed,3
+org.assertj:assertj-core,6,3.13.0,3.13.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.13.1,3.13.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.13.2,3.14.0,[org.hamcrest:hamcrest],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.assertj:assertj-core,6,3.14.0,3.15.0,[],[com.google.code.findbugs:jsr305],0,1,Changed,-1
+org.assertj:assertj-core,6,3.15.0,3.16.0,"[nl.jqno.equalsverifier:equalsverifier, commons-io:commons-io]",[],2,0,Changed,2
+org.assertj:assertj-core,6,3.16.0,3.16.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.16.1,3.17.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.17.0,3.17.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.17.1,3.17.2,"[org.eclipse.platform:org.eclipse.osgi, org.junit.platform:junit-platform-engine, org.junit.platform:junit-platform-commons, org.junit.platform:junit-platform-launcher, org.junit.jupiter:junit-jupiter-engine]",[],5,0,Changed,5
+org.assertj:assertj-core,6,3.17.2,3.18.0,[com.fasterxml.jackson.core:jackson-databind],"[org.junit.platform:junit-platform-engine, org.junit.platform:junit-platform-commons, org.junit.platform:junit-platform-launcher, org.junit.jupiter:junit-jupiter-engine]",1,4,Changed,-3
+org.assertj:assertj-core,6,3.18.0,3.18.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.18.1,3.19.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.1.0,3.2.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.19.0,3.20.0,"[org.apache.commons:commons-collections4, org.springframework:spring-core]",[],2,0,Changed,2
+org.assertj:assertj-core,6,3.20.0,3.20.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.20.1,3.20.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.20.2,3.21.0,[],[com.github.marschall:memoryfilesystem],0,1,Changed,-1
+org.assertj:assertj-core,6,3.21.0,3.22.0,[org.hibernate.orm:hibernate-core],[],1,0,Changed,1
+org.assertj:assertj-core,6,3.22.0,3.23.0,[net.bytebuddy:byte-buddy],[],1,0,Changed,1
+org.assertj:assertj-core,6,3.23.0,3.23.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.23.1,3.24.0,"[jakarta.ws.rs:jakarta.ws.rs-api, org.junit-pioneer:junit-pioneer]",[org.eclipse.platform:org.eclipse.osgi],2,1,Changed,1
+org.assertj:assertj-core,6,3.24.0,3.24.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.24.1,3.24.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.24.2,3.25.0,[],"[nl.jqno.equalsverifier:equalsverifier, org.apache.commons:commons-collections4, org.mockito:mockito-junit-jupiter, org.junit-pioneer:junit-pioneer, com.fasterxml.jackson.core:jackson-databind, org.springframework:spring-core, org.junit.platform:junit-platform-testkit, org.junit.vintage:junit-vintage-engine, org.mockito:mockito-core, com.google.guava:guava, org.junit.jupiter:junit-jupiter, org.hibernate.orm:hibernate-core, org.apache.commons:commons-lang3, jakarta.ws.rs:jakarta.ws.rs-api, commons-io:commons-io]",0,15,Changed,-15
+org.assertj:assertj-core,6,3.25.0,3.25.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.25.1,3.25.3,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.25.3,3.26.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.26.0,3.26.3,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.2.0,3.3.0,[com.tngtech.java:junit-dataprovider],[],1,0,Changed,1
+org.assertj:assertj-core,6,3.3.0,3.4.0,[],"[org.ow2.asm:asm, cglib:cglib]",0,2,Changed,-2
+org.assertj:assertj-core,6,3.4.0,3.4.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.4.1,3.5.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.5.0,3.5.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.5.1,3.5.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.5.2,3.6.0,[],"[org.powermock:powermock-api-mockito, org.easymock:easymock, org.powermock:powermock-module-junit4]",0,3,Changed,-3
+org.assertj:assertj-core,6,3.6.0,3.6.1,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.6.1,3.6.2,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.6.2,3.7.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.7.0,3.8.0,[],[],0,0,No Change,0
+org.assertj:assertj-core,6,3.8.0,3.9.0,"[org.opentest4j:opentest4j, org.hamcrest:hamcrest-core, com.tngtech.junit.dataprovider:junit4-dataprovider, com.google.guava:guava]",[com.tngtech.java:junit-dataprovider],4,1,Changed,3
+org.assertj:assertj-core,6,3.9.0,3.9.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.12.0,1.10.16,[org.hamcrest:hamcrest-core],"[net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy]",1,2,Changed,-1
+org.mockito:mockito-core,7,1.10.16,1.10.17,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.10.17,1.10.18,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.10.18,1.10.19,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.9.0,1.10.5,[org.hamcrest:hamcrest-core],"[net.bytebuddy:byte-buddy, net.bytebuddy:byte-buddy-agent]",1,2,Changed,-1
+org.mockito:mockito-core,7,1.10.5,1.10.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.10.7,1.10.8,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.3,1.5,[],[cglib:cglib-nodep],0,1,Changed,-1
+org.mockito:mockito-core,7,1.5,1.6,[junit:junit],[],1,0,Changed,1
+org.mockito:mockito-core,7,1.6,1.7,[],[junit:junit],0,1,Changed,-1
+org.mockito:mockito-core,7,1.7,1.8.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.0-rc2,1.8.0-rc1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.10-beta,1.8.0-rc2,[],[net.bytebuddy:byte-buddy],0,1,Changed,-1
+org.mockito:mockito-core,7,1.8.0,1.8.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.94-beta,1.8.1-rc1,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,1.8.1,1.8.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.2,1.8.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.3,1.8.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.4,1.8.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.5,1.9.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.69-beta,1.9.0-rc1,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,1.9.0,1.9.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.9-beta,1.9.5-rc1,[],[net.bytebuddy:byte-buddy],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.79-beta,2.0.0-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.108-beta,2.0.0-beta.112,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.38-beta,2.0.0-beta.113,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.116,2.0.0-beta.114,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.112,2.0.0-beta.115,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.118,2.0.0-beta.116,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.67-beta,2.0.0-beta.117,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.113,2.0.0-beta.118,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.101-beta,2.0.1-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.81-beta,2.0.10-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.0-beta,2.0.100-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.60-beta,2.0.101-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.61-beta,2.0.102-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.3-beta,2.0.103-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.63-beta,2.0.104-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.64-beta,2.0.105-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.65-beta,2.0.106-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.7-beta,2.0.107-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.0-beta.114,2.0.108-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.68-beta,2.0.109-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.40-beta,2.0.11-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.62-beta,2.0.110-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.70-beta,2.0.111-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.83-beta,2.0.12-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.84-beta,2.0.13-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.43-beta,2.0.14-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.57-beta,2.0.15-beta,"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",[net.bytebuddy:byte-buddy],2,1,Changed,1
+org.mockito:mockito-core,7,2.0.87-beta,2.0.16-beta,"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",[net.bytebuddy:byte-buddy],2,1,Changed,1
+org.mockito:mockito-core,7,2.0.88-beta,2.0.17-beta,"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",[net.bytebuddy:byte-buddy],2,1,Changed,1
+org.mockito:mockito-core,7,2.0.89-beta,2.0.18-beta,"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",[net.bytebuddy:byte-buddy],2,1,Changed,1
+org.mockito:mockito-core,7,2.0.111-beta,2.0.19-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.102-beta,2.0.2-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,1.9.0-rc1,2.0.20-beta,[net.bytebuddy:byte-buddy],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.92-beta,2.0.21-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.93-beta,2.0.22-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,1.8.1-rc1,2.0.23-beta,[net.bytebuddy:byte-buddy],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.53-beta,2.0.24-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.8-beta,2.0.25-beta,[net.bytebuddy:byte-buddy],[],1,0,Changed,1
+org.mockito:mockito-core,7,1.9.5-rc1,2.0.26-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.98-beta,2.0.27-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.99-beta,2.0.28-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.91-beta,2.0.3-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.100-beta,2.0.30-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.73-beta,2.0.31-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.74-beta,2.0.32-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.46-beta,2.0.33-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-RC.1,2.0.34-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.77-beta,2.0.35-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.78-beta,2.0.36-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.66-beta,2.0.37-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.1-beta,2.0.38-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.90-beta,2.0.39-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.104-beta,2.0.4-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.110-beta,2.0.40-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.12-beta,2.0.41-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.13-beta,2.0.42-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.72-beta,2.0.43-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.86-beta,2.0.44-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.16-beta,2.0.45-beta,[net.bytebuddy:byte-buddy],"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",1,2,Changed,-1
+org.mockito:mockito-core,7,2.0.17-beta,2.0.46-beta,[net.bytebuddy:byte-buddy],"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",1,2,Changed,-1
+org.mockito:mockito-core,7,2.0.18-beta,2.0.47-beta,[net.bytebuddy:byte-buddy],"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",1,2,Changed,-1
+org.mockito:mockito-core,7,2.0.19-beta,2.0.48-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.71-beta,2.0.49-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.105-beta,2.0.5-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.21-beta,2.0.50-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.22-beta,2.0.51-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.23-beta,2.0.52-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.82-beta,2.0.53-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.96-beta,2.0.54-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.123,2.0.55-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.85-beta,2.0.56-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.28-beta,2.0.57-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.80-beta,2.0.58-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.8.0-rc1,2.0.59-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.106-beta,2.0.6-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.31-beta,2.0.60-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.32-beta,2.0.61-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.33-beta,2.0.62-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.34-beta,2.0.63-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.35-beta,2.0.64-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.36-beta,2.0.65-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.107-beta,2.0.66-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.115,2.0.67-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.39-beta,2.0.68-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.27-beta,2.0.69-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.95-beta,2.0.7-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.41-beta,2.0.70-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.42-beta,2.0.71-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.30-beta,2.0.72-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.44-beta,2.0.73-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.0-beta.1,2.0.74-beta,[],[net.bytebuddy:byte-buddy-agent],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.47-beta,2.0.76-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.48-beta,2.0.77-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.49-beta,2.0.78-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.37-beta,2.0.79-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.0-beta.117,2.0.8-beta,[org.hamcrest:hamcrest-core],[net.bytebuddy:byte-buddy],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.51-beta,2.0.80-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.52-beta,2.0.81-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.11-beta,2.0.82-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.54-beta,2.0.83-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.55-beta,2.0.84-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.14-beta,2.0.85-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.15-beta,2.0.86-beta,[net.bytebuddy:byte-buddy],"[org.hamcrest:hamcrest-core, net.bytebuddy:byte-buddy-dep]",1,2,Changed,-1
+org.mockito:mockito-core,7,2.0.58-beta,2.0.87-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.59-beta,2.0.88-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.10.19,2.0.89-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.109-beta,2.0.9-beta,[org.hamcrest:hamcrest-core],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.0.2-beta,2.0.90-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.20-beta,2.0.91-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.4-beta,2.0.92-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.5-beta,2.0.93-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.6-beta,2.0.94-beta,[net.bytebuddy:byte-buddy],[org.hamcrest:hamcrest-core],1,1,Changed,0
+org.mockito:mockito-core,7,2.0.24-beta,2.0.95-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.25-beta,2.0.96-beta,[],[org.hamcrest:hamcrest-core],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.26-beta,2.0.97-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.56-beta,2.0.98-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.50-beta,2.0.99-beta,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.9.5,2.1.0,"[net.bytebuddy:byte-buddy, net.bytebuddy:byte-buddy-agent]",[org.hamcrest:hamcrest-core],2,1,Changed,1
+org.mockito:mockito-core,7,2.1.0-RC.2,2.1.0-RC.1,[],[net.bytebuddy:byte-buddy-agent],0,1,Changed,-1
+org.mockito:mockito-core,7,2.0.76-beta,2.1.0-RC.2,[net.bytebuddy:byte-buddy-agent],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.1.0-beta.121,2.1.0-beta.119,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.126,2.1.0-beta.120,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.120,2.1.0-beta.121,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.125,2.1.0-beta.122,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.119,2.1.0-beta.123,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.97-beta,2.1.0-beta.124,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.124,2.1.0-beta.125,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0-beta.122,2.1.0-beta.126,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,1.10.8,2.10.0,"[net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy]",[org.hamcrest:hamcrest-core],2,1,Changed,1
+org.mockito:mockito-core,7,2.10.0,2.11.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.11.0,2.12.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.12.0,2.13.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.13.0,2.15.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.15.0,2.16.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.16.0,2.17.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.17.0,2.18.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.18.0,2.18.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.18.3,2.19.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.19.0,2.19.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.1.0,2.2.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.0.45-beta,2.2.0-beta.1,[net.bytebuddy:byte-buddy-agent],[],1,0,Changed,1
+org.mockito:mockito-core,7,2.2.0,2.2.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.20.1,2.2.10,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.21.0,2.2.11,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.11,2.2.12,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.12,2.2.13,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.13,2.2.14,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.14,2.2.15,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.15,2.2.16,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.16,2.2.17,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.17,2.2.18,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.18,2.2.19,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.1,2.2.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.22.0,2.2.20,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.20,2.2.21,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.21,2.2.22,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.22,2.2.23,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.23,2.2.24,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.24,2.2.25,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.25,2.2.26,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.26,2.2.27,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.27,2.2.28,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.28,2.2.29,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.2,2.2.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.3,2.2.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.4,2.2.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.5,2.2.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.6,2.2.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.7,2.2.8,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.8,2.2.9,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.19.1,2.20.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.20.0,2.20.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.10,2.21.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.19,2.22.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.29,2.23.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.23.0,2.23.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.23.4,2.24.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.24.0,2.24.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.24.5,2.25.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.25.0,2.25.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.25.1,2.26.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.26.0,2.27.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.27.0,2.28.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.28.1,2.28.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.2.9,2.3.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.0,2.3.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.28.2,2.3.10,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.10,2.3.11,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.1,2.3.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.2,2.3.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.3,2.3.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.4,2.3.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.5,2.3.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.6,2.3.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.7,2.4.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.0,2.4.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.1,2.4.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.2,2.4.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.3,2.4.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.4,2.4.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.4.5,2.5.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.0,2.5.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.1,2.5.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.2,2.5.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.3,2.5.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.4,2.5.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.5,2.5.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.6,2.5.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.5.7,2.6.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.0,2.6.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.1,2.6.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.2,2.6.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.3,2.6.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.4,2.6.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.5,2.6.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.6,2.6.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.7,2.6.8,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.8,2.6.9,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.6.9,2.7.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.0,2.7.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.3.11,2.7.10,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.10,2.7.11,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.11,2.7.12,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.12,2.7.13,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.13,2.7.14,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.14,2.7.15,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.15,2.7.16,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.16,2.7.17,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.17,2.7.18,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.18,2.7.19,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.1,2.7.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.19,2.7.20,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.20,2.7.21,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.21,2.7.22,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.2,2.7.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.3,2.7.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.4,2.7.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.5,2.7.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.6,2.7.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.7,2.7.8,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.8,2.7.9,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.22,2.8.47,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.7.9,2.8.9,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.8.9,2.9.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.9.0,3.0.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.0.0,3.1.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,2.8.47,3.10.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.10.0,3.11.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.11.0,3.11.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.11.1,3.11.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.11.2,3.12.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.12.0,3.12.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.12.1,3.12.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.12.2,3.12.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.12.3,3.12.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.1.0,3.2.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.2.0,3.2.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.2.4,3.3.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.3.0,3.3.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.3.3,3.4.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.4.0,3.4.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.4.2,3.4.3,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.4.3,3.4.4,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.4.4,3.4.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.4.6,3.5.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.12.4,3.5.10,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.10,3.5.11,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.11,3.5.13,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.13,3.5.15,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.0,3.5.2,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.2,3.5.5,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.5,3.5.6,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.6,3.5.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.7,3.5.9,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.9,3.6.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.5.15,3.6.28,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.6.0,3.7.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.7.0,3.7.7,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.7.7,3.8.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.8.0,3.9.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.9.0,4.0.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.0.0,4.1.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,3.6.28,4.10.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.10.0,4.11.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.1.0,4.2.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.2.0,4.3.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.3.0,4.3.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.3.1,4.4.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.4.0,4.5.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.5.0,4.5.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.5.1,4.6.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.6.0,4.6.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.6.1,4.7.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.7.0,4.8.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.8.0,4.8.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.8.1,4.9.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.9.0,5.0.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.0.0,5.1.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.1.0,5.1.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,4.11.0,5.11.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.11.0,5.12.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.1.1,5.2.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.2.0,5.3.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.3.0,5.3.1,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.3.1,5.4.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.4.0,5.5.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.5.0,5.6.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.6.0,5.7.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.7.0,5.8.0,[],[],0,0,No Change,0
+org.mockito:mockito-core,7,5.8.0,5.9.0,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.0-RC4,2.0.0-RC1,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.0-RC3,2.0.0-RC2,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.0-RC1,2.0.0-RC3,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.0-RC5,2.0.0-RC4,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.14-RC1,2.0.0-RC5,[],"[org.reactivestreams:reactive-streams-tck, com.google.guava:guava, junit:junit, org.testng:testng, org.mockito:mockito-core]",0,5,Changed,-5
+io.reactivex.rxjava2:rxjava,8,2.0.0,2.0.1,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.1,2.0.2,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.2,2.0.3,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.3,2.0.4,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.4,2.0.5,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.5,2.0.6,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.6,2.0.7,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.7,2.0.8,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.8,2.0.9,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.0.9,2.1.0,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.0,2.1.1,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.9,2.1.10,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.10,2.1.11,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.11,2.1.12,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.12,2.1.13,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.13,2.1.14,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.5-RC4,2.1.14-RC1,[com.google.guava:guava],[],1,0,Changed,1
+io.reactivex.rxjava2:rxjava,8,2.1.14,2.1.15,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.15,2.1.16,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.16,2.1.17,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.1,2.1.2,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.2,2.1.3,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.3,2.1.4,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.4,2.1.5,"[junit:junit, org.mockito:mockito-core, org.testng:testng, org.reactivestreams:reactive-streams-tck]",[],4,0,Changed,4
+io.reactivex.rxjava2:rxjava,8,2.2.21,2.1.5-RC4,[],[com.google.guava:guava],0,1,Changed,-1
+io.reactivex.rxjava2:rxjava,8,2.1.5,2.1.6,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.6,2.1.7,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.7,2.1.8,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.8,2.1.9,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.9,2.2.0,[com.google.guava:guava],[],1,0,Changed,1
+io.reactivex.rxjava2:rxjava,8,2.2.0,2.2.1,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.1.17,2.2.10,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.10,2.2.11,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.11,2.2.12,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.12,2.2.13,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.13,2.2.14,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.14,2.2.15,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.15,2.2.16,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.16,2.2.17,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.17,2.2.18,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.18,2.2.19,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.1,2.2.2,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.19,2.2.20,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.20,2.2.21,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.2,2.2.3,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.3,2.2.4,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.4,2.2.5,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.5,2.2.6,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.6,2.2.7,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.7,2.2.8,[],[],0,0,No Change,0
+io.reactivex.rxjava2:rxjava,8,2.2.8,2.2.9,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.2,1.1.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-beta4,1.1.0-RC0,[],[junit:junit],0,1,Changed,-1
+org.slf4j:slf4j-api,9,1.8.0-beta1,1.1.0-RC1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha7,1.1.0-beta0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.1.0,1.3.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.3.0,1.3.1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.3.1,1.4.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.4.0,1.4.1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.4.1,1.4.2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.4.2,1.4.3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.4.3,1.5.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha3,1.5.0-M0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.9,1.5.10,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.10,1.5.11,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.0,1.5.2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.2,1.5.3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.3,1.5.4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.4,1.5.5,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.5,1.5.6,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.6,1.5.7,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.7,1.5.8,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha4,1.5.9-RC0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.0-M0,1.5.9.RC1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.8,1.6.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-alpha1,1.6.0-RC0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.1.0-alpha1,1.6.0-alpha2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.0,1.6.1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.1,1.6.2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.2,1.6.3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.3,1.6.4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.4,1.6.5,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.5,1.6.6,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.6,1.7.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.0,1.7.1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.11,1.7.10,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.10,1.7.11,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.11,1.7.12,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.12,1.7.13,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.13,1.7.14,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.14,1.7.15,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.15,1.7.16,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.16,1.7.18,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.18,1.7.19,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.1,1.7.2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.19,1.7.20,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.20,1.7.21,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.21,1.7.22,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.22,1.7.23,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.23,1.7.24,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.24,1.7.25,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.25,1.7.26,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.26,1.7.27,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.27,1.7.28,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.28,1.7.29,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.2,1.7.3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.29,1.7.30,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.30,1.7.31,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.31,1.7.32,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.32,1.7.33,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.33,1.7.34,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.34,1.7.35,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.35,1.7.36,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.3,1.7.4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.4,1.7.5,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.5,1.7.6,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.6,1.7.7,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.7,1.7.8,[com.google.code.findbugs:jsr305],[],1,0,Changed,1
+org.slf4j:slf4j-api,9,1.7.8,1.7.9,[],[com.google.code.findbugs:jsr305],0,1,Changed,-1
+org.slf4j:slf4j-api,9,2.0.0-beta0,1.8.0-alpha0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-alpha0,1.8.0-alpha1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-beta0,1.8.0-alpha2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.1.0-RC0,1.8.0-beta0,[junit:junit],[],1,0,Changed,1
+org.slf4j:slf4j-api,9,2.0.0-beta1,1.8.0-beta1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.9-RC0,1.8.0-beta2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha1,1.8.0-beta4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.9,2.0.0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha2,2.0.0-alpha0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-beta2,2.0.0-alpha1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha6,2.0.0-alpha2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.1.0-beta0,2.0.0-alpha3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.5.9.RC1,2.0.0-alpha4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.6.0-alpha2,2.0.0-alpha5,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha5,2.0.0-alpha6,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0-alpha0,2.0.0-alpha7,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.1.0-RC1,2.0.0-beta0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.8.0-alpha2,2.0.0-beta1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.0,2.0.1,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,1.7.36,2.0.10,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.10,2.0.11,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.11,2.0.12,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.12,2.0.13,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.13,2.0.14,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.14,2.0.15,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.15,2.0.16,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.1,2.0.2,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.2,2.0.3,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.3,2.0.4,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.4,2.0.5,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.5,2.0.6,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.6,2.0.7,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.7,2.0.8,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.8,2.0.9,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.0.16,2.1.0-alpha0,[],[],0,0,No Change,0
+org.slf4j:slf4j-api,9,2.1.0-alpha0,2.1.0-alpha1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,3.0.1,2.21.0,"[com.flipkart.zjsonpatch:zjsonpatch, junit:junit, org.apache.httpcomponents:httpclient]","[org.eclipse.jetty:jetty-alpn-server, net.javacrumbs.json-unit:json-unit-core, commons-fileupload:commons-fileupload, com.networknt:json-schema-validator, commons-io:commons-io, org.xmlunit:xmlunit-placeholders, org.eclipse.jetty:jetty-alpn-java-client, org.apache.httpcomponents.client5:httpclient5, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, org.eclipse.jetty:jetty-alpn-client, org.eclipse.jetty:jetty-alpn-java-server, org.eclipse.jetty.http2:http2-server, org.eclipse.jetty:jetty-proxy]",3,13,Changed,-10
+com.github.tomakehurst:wiremock-jre8,10,2.21.0,2.22.0,[org.xmlunit:xmlunit-placeholders],[],1,0,Changed,1
+com.github.tomakehurst:wiremock-jre8,10,2.22.0,2.23.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.23.0,2.23.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.23.1,2.23.2,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.23.2,2.24.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.24.0,2.24.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.24.1,2.25.0,"[commons-fileupload:commons-fileupload, org.eclipse.jetty.http2:http2-server, org.eclipse.jetty:jetty-alpn-conscrypt-client, org.eclipse.jetty:jetty-alpn-conscrypt-server, org.eclipse.jetty:jetty-alpn-server]",[junit:junit],5,1,Changed,4
+com.github.tomakehurst:wiremock-jre8,10,2.25.0,2.25.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.25.1,2.26.0,[net.javacrumbs.json-unit:json-unit-core],[],1,0,Changed,1
+com.github.tomakehurst:wiremock-jre8,10,2.26.0,2.26.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.26.1,2.26.2,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.26.2,2.26.3,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.26.3,2.27.0,"[org.conscrypt:conscrypt-openjdk-uber, org.eclipse.jetty:jetty-proxy]",[],2,0,Changed,2
+com.github.tomakehurst:wiremock-jre8,10,2.27.0,2.27.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.27.1,2.27.2,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.27.2,2.28.0,"[commons-io:commons-io, net.minidev:json-smart]",[com.flipkart.zjsonpatch:zjsonpatch],2,1,Changed,1
+com.github.tomakehurst:wiremock-jre8,10,2.28.0,2.28.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.28.1,2.29.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.29.0,2.29.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.29.1,2.30.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.30.0,2.30.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.30.1,2.31.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.31.0,2.32.0,"[org.eclipse.jetty:jetty-alpn-openjdk8-client, org.apache.httpcomponents.client5:httpclient5, org.eclipse.jetty:jetty-alpn-java-client, org.eclipse.jetty:jetty-alpn-openjdk8-server, org.eclipse.jetty:jetty-alpn-java-server]","[org.eclipse.jetty:jetty-alpn-conscrypt-client, net.minidev:json-smart, org.eclipse.jetty:jetty-alpn-conscrypt-server, org.apache.httpcomponents:httpclient, org.conscrypt:conscrypt-openjdk-uber]",5,5,Changed,0
+com.github.tomakehurst:wiremock-jre8,10,2.32.0,2.33.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.33.0,2.33.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.33.1,2.33.2,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.33.2,2.34.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.34.0,2.35.0,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.35.0,2.35.1,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,2.35.1,2.35.2,[],[],0,0,No Change,0
+com.github.tomakehurst:wiremock-jre8,10,3.0.0,3.0.1,"[org.ow2.asm:asm, org.eclipse.jetty:jetty-alpn-server, net.javacrumbs.json-unit:json-unit-core, com.jayway.jsonpath:json-path, commons-fileupload:commons-fileupload, com.fasterxml.jackson.core:jackson-databind, com.github.jknack:handlebars-helpers, org.slf4j:slf4j-api, org.xmlunit:xmlunit-core, com.fasterxml.jackson.core:jackson-core, com.networknt:json-schema-validator, commons-io:commons-io, org.xmlunit:xmlunit-legacy, com.github.jknack:handlebars, org.apache.commons:commons-lang3, org.eclipse.jetty:jetty-servlets, net.sf.jopt-simple:jopt-simple, org.xmlunit:xmlunit-placeholders, org.eclipse.jetty:jetty-alpn-java-client, org.apache.httpcomponents.client5:httpclient5, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, com.fasterxml.jackson.core:jackson-annotations, com.google.guava:guava, org.eclipse.jetty:jetty-alpn-client, org.eclipse.jetty:jetty-alpn-java-server, org.eclipse.jetty.http2:http2-server, org.eclipse.jetty:jetty-proxy, org.eclipse.jetty:jetty-webapp, org.eclipse.jetty:jetty-servlet, org.eclipse.jetty:jetty-server]",[],30,0,Changed,30

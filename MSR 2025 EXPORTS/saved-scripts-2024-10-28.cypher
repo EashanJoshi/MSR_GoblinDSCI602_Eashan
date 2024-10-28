@@ -67,6 +67,74 @@ RETURN LibraryID, PreviousVersion, NewestVersion, AddedDeps, RemovedDeps
 ORDER BY LibraryID, NewestVersion;
 
 
+// MAIN QUERY 2
+
+// Step 1: Fetch the top 10 libraries based on POPULARITY_1_YEAR
+MATCH (a:Artifact)-[:relationship_AR]->(r:Release)-[:addedValues]->(v:AddedValue)
+WHERE v.type = 'POPULARITY_1_YEAR' AND toInteger(v.value) > 0
+WITH a.id AS LibraryID
+ORDER BY toInteger(v.value) DESC
+LIMIT 10
+
+// Create a list of library IDs with their labels (1 to 10)
+WITH collect(LibraryID) AS LibraryIDs
+UNWIND range(0, size(LibraryIDs) - 1) AS idx
+WITH LibraryIDs[idx] AS LibraryID, idx + 1 AS LibraryLabel
+
+// Step 2: Collect all versions of each library
+MATCH (a:Artifact)-[:relationship_AR]->(release:Release)
+WHERE a.id = LibraryID
+WITH LibraryID, LibraryLabel, release.version AS Version
+ORDER BY LibraryID, toInteger(replace(Version, '.', '')) ASC
+WITH LibraryID, LibraryLabel, collect(Version) AS versions
+
+// Step 3: Loop through each library and its versions
+UNWIND range(0, size(versions) - 2) AS idx
+WITH LibraryID, LibraryLabel, versions[idx] AS PreviousVersion, versions[idx + 1] AS NewestVersion
+
+// Match the dependencies of the newest version
+MATCH (a:Artifact {id: LibraryID})-[:relationship_AR]->(newRelease:Release {version: NewestVersion})
+OPTIONAL MATCH (newRelease)-[:dependency]->(newDep:Artifact)
+WITH LibraryID, LibraryLabel, PreviousVersion, NewestVersion, collect(DISTINCT newDep.id) AS NewDeps
+
+// Match the dependencies of the previous version
+MATCH (a:Artifact {id: LibraryID})-[:relationship_AR]->(oldRelease:Release {version: PreviousVersion})
+OPTIONAL MATCH (oldRelease)-[:dependency]->(oldDep:Artifact)
+WITH LibraryID, LibraryLabel, PreviousVersion, NewestVersion, 
+     NewDeps, 
+     collect(DISTINCT oldDep.id) AS OldDeps
+
+// Calculate added and removed dependencies
+WITH LibraryID, LibraryLabel, PreviousVersion, NewestVersion, 
+     [dep IN NewDeps WHERE NOT dep IN OldDeps] AS AddedDeps, 
+     [dep IN OldDeps WHERE NOT dep IN NewDeps] AS RemovedDeps
+
+// Determine if there is any change in dependencies and calculate net change
+WITH LibraryID, LibraryLabel, PreviousVersion, NewestVersion, 
+     AddedDeps, RemovedDeps, 
+     size(AddedDeps) AS AddedDepsCount, 
+     size(RemovedDeps) AS RemovedDepsCount,
+     CASE 
+         WHEN size(AddedDeps) > 0 OR size(RemovedDeps) > 0 THEN 'Changed' 
+         ELSE 'No Change' 
+     END AS Change,
+     size(AddedDeps) - size(RemovedDeps) AS NetChange
+
+// Return results
+RETURN 
+    LibraryID, 
+    LibraryLabel,
+    PreviousVersion, 
+    NewestVersion, 
+    AddedDeps, 
+    RemovedDeps,
+    AddedDepsCount,
+    RemovedDepsCount,
+    Change,
+    NetChange
+ORDER BY LibraryLabel, NewestVersion;
+
+
 // The query identifies the top 10 most popular libraries based on their 1-year popularity, retrieves their releases, and fetches the associated added values (e.g., popularity, freshness, vulnerabilities), providing a comprehensive overview of these libraries.
 
 // Step 1: Fetch top 10 library IDs from Artifact nodes, not Release nodes
